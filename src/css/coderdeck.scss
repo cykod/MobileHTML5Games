@@ -51,15 +51,15 @@ $gray-color:#CCC;
 	
 	.slide-list {
 		h2 { margin-bottom:.1em;  }
-		h3 { color:$main-color; margin-bottom:.3em;}
-		ul { margin-left:1em;  list-style-type: square; @include sans-font;  color:$callout-color;}
+		h3 { @include serif-font; color:$main-color; margin-bottom:.3em;}
+		ul { margin-left:3em;  list-style-type: square; @include sans-font;  color:$callout-color; padding-top:1em;}
 		li { padding-left:.5em; }
 		p {  color:$main-color; line-height:1.3em;  padding-bottom:.3em;}
 		
 	}
 	
 	.slide-subhead { 
-		h1 { font-size:5em; position:static; margin:0px; padding-top:2em; padding-bottom:0.25em; 
+		h1 { font-size:5em; position:static; margin:0px; padding-top:1em; padding-bottom:0.25em; 
       		-webkit-transform:none;
       		-moz-transform:none;
       		-ms-transform:none;
@@ -74,7 +74,7 @@ $gray-color:#CCC;
 	h1 {
 		@include sans-font;
 		letter-spacing:-0.04em;
-		line-height: .9em;
+		line-height: 1em;
 		text-transform:uppercase;
 		
 		color:$callout-color;
@@ -91,7 +91,7 @@ $gray-color:#CCC;
 	}
 
 	h3 {
-		font-size:1.2em;
+		font-size:1.5em;
 		font-weight:normal;
 	}
 

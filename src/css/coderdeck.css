@@ -23,15 +23,19 @@
   .deck-container .slide-list h2 {
     margin-bottom: .1em; }
   .deck-container .slide-list h3 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-transform: none;
     color: #444444;
     margin-bottom: .3em; }
   .deck-container .slide-list ul {
-    margin-left: 1em;
+    margin-left: 3em;
     list-style-type: square;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #2ca58f; }
+    color: #2ca58f;
+    padding-top: 1em; }
   .deck-container .slide-list li {
     padding-left: .5em; }
   .deck-container .slide-list p {
@@ -42,7 +46,7 @@
     font-size: 5em;
     position: static;
     margin: 0px;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 0.25em;
     -webkit-transform: none;
     -moz-transform: none;
@@ -59,7 +63,7 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.04em;
-    line-height: .9em;
+    line-height: 1em;
     text-transform: uppercase;
     color: #2ca58f; }
   .deck-container h2 {
@@ -73,7 +77,7 @@
     letter-spacing: -0.02em;
     word-spacing: .1em; }
   .deck-container h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: normal; }
   .deck-container .slide > pre {
     padding: 10px;
